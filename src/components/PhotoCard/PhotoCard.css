@@ -1,4 +1,17 @@
 .photo-card__container {
+  cursor: pointer;
+  margin-top: 1rem;
+  animation-name: opacity-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes opacity-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .photo-card__image {
