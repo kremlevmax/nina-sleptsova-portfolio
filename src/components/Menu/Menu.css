@@ -1,0 +1,31 @@
+nav {
+  max-height: 100vh;
+  padding-top: 30vh;
+}
+
+.logo__container {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.menu {
+  list-style: none;
+}
+
+.social-links {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+li:not(:last-child) {
+  margin-bottom: 1rem;
+}
