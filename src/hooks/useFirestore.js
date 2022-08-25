@@ -13,11 +13,8 @@ const useFirestore = () => {
       querySnapshot.forEach((doc) => {
         images.push({
           id: doc.id,
-          description_eng: doc.data().description_eng,
-          description_ru: doc.data().description_ru,
-          name_eng: doc.data().name_eng,
-          name_ru: doc.data().name_ru,
-          name_skh: doc.data().name_skh,
+          desc: doc.data().desc,
+          name: doc.data().name,
           photos: doc.data().photos,
         });
       });

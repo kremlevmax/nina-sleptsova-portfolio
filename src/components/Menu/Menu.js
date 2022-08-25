@@ -17,11 +17,11 @@ const Menu = ({ language }) => {
               Projects
             </Link>
           </li>
-          <li className='menu__item'>
+          {/* <li className='menu__item'>
             <Link to='/contact' className='menu__item-link'>
               Contact
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className='social-links'>
