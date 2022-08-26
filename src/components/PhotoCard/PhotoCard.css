@@ -1,9 +1,9 @@
 .photo-card__container {
   cursor: pointer;
-  margin-top: 1rem;
   animation-name: opacity-animation;
   animation-duration: 1.5s;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 @keyframes opacity-animation {

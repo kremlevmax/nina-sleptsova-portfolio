@@ -4,7 +4,7 @@ import "./PhotoLine.css";
 import { useLocation } from "react-router-dom";
 import cover from "../../images/cover.jpg";
 
-const PhotoLine = ({ projectNumber, docs, language }) => {
+const PhotoLine = ({ projectNumber, docs, language, setSelectedImage }) => {
   const pathname = useLocation().pathname;
   const album = docs[projectNumber];
   const arrayOfImages = album === undefined ? [] : Object.values(album?.photos);
@@ -12,11 +12,16 @@ const PhotoLine = ({ projectNumber, docs, language }) => {
   const images =
     pathname === "/projects" ? (
       arrayOfImages.map((image) => (
-        <PhotoCard image={image} key={image.id} language={language} />
+        <PhotoCard
+          image={image}
+          key={image.id}
+          language={language}
+          setSelectedImage={setSelectedImage}
+        />
       ))
     ) : (
       <div className='photo-card__container'>
-        <img className='photo-card__image' src={cover} alt='Cover' />
+        <img className='photo-card__cover' src={cover} alt='Cover' />
       </div>
     );
 

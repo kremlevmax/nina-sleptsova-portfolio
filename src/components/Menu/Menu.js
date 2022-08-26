@@ -1,45 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ProjectList from "../ProjectsList/ProjectList";
+import MainMenu from "./MainMenu";
 import "./Menu.css";
+import SocialLinks from "./SocialLinks";
 
-const Menu = ({ language }) => {
+const Menu = ({ projectNumber, language, docs }) => {
+  const logo = language === "eng" ? "Nina Sleptsova" : "Нина Слепцова";
   return (
     <nav>
       <div className='logo__container'>
         <Link to='/' className='logo'>
-          Nina Sleptsova
+          {logo}
         </Link>
       </div>
-      <div className='menu__container'>
-        <ul className='menu'>
-          <li className='menu__item'>
-            <Link to='/projects' className='menu__item-link'>
-              Projects
-            </Link>
-          </li>
-          {/* <li className='menu__item'>
-            <Link to='/contact' className='menu__item-link'>
-              Contact
-            </Link>
-          </li> */}
-        </ul>
-      </div>
-      <div className='social-links'>
-        <a href='#' className='social-link'>
-          Facebook
-        </a>
-        /
-        <a
-          href='https://www.instagram.com/n.in.stagram/'
-          className='social-link'
-        >
-          Instagram
-        </a>
-        /
-        <a href='#' className='social-link'>
-          Email
-        </a>
-      </div>
+      <MainMenu language={language} />
+      <ProjectList
+        projectNumber={projectNumber}
+        docs={docs}
+        language={language}
+      />
+      <SocialLinks />
     </nav>
   );
 };

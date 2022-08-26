@@ -4,6 +4,7 @@ import "./ProjectList.css";
 
 const ProjectList = ({ projectNumber, docs, language }) => {
   const pathname = useLocation().pathname;
+
   const projects = docs.map((item, index) => {
     if (index === projectNumber) {
       return (

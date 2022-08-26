@@ -4,27 +4,39 @@ import Menu from "./components/Menu/Menu";
 import useFirestore from "./hooks/useFirestore";
 import PhotoLine from "./components/PhotoLine/PhotoLine";
 import ProjectList from "./components/ProjectsList/ProjectList";
+import Modal from "./components/Modal/Modal";
+import SecondMenu from "./components/SecondMenu/SecondMenu";
 
 function App() {
   const [language, setLanguage] = useState("eng");
   const [projectNumber, setProjectNumber] = useState(0);
+  const [selectedImage, setSelectedImage] = useState(null);
   const { docs } = useFirestore();
 
-  console.log(docs);
   return (
     <div className='App'>
       <main>
-        <Menu language={language} />
+        <Menu
+          projectNumber={projectNumber}
+          docs={docs}
+          language={language}
+          setLanguage={setLanguage}
+        />
         <PhotoLine
           projectNumber={projectNumber}
           docs={docs}
           language={language}
+          setSelectedImage={setSelectedImage}
         />
-        <ProjectList
-          projectNumber={projectNumber}
-          docs={docs}
-          language={language}
-        />
+        <SecondMenu setLanguage={setLanguage} />
+
+        {selectedImage && (
+          <Modal
+            selectedImage={selectedImage}
+            setSelectedImage={setSelectedImage}
+            docs={docs}
+          />
+        )}
       </main>
     </div>
   );

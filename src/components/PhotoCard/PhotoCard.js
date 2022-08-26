@@ -1,9 +1,12 @@
 import React from "react";
 import "./PhotoCard.css";
 
-const PhotoCard = ({ image, language }) => {
+const PhotoCard = ({ image, language, setSelectedImage }) => {
   return (
-    <div className='photo-card__container'>
+    <div
+      className='photo-card__container'
+      onClick={() => setSelectedImage(image.photo_large)}
+    >
       <img
         className='photo-card__image'
         src={image.photo_small}

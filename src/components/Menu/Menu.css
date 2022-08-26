@@ -4,13 +4,14 @@ nav {
 }
 
 .logo__container {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .logo {
   font-size: 1.8rem;
   text-transform: uppercase;
   color: black;
+  line-height: 2.1rem;
 }
 
 .menu {
@@ -19,11 +20,18 @@ nav {
 
 .social-links {
   color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 1rem;
+}
+
+.separation-line {
+  height: 2px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 ul {
   padding-left: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 li:not(:last-child) {

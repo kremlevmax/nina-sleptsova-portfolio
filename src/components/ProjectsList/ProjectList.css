@@ -1,22 +1,26 @@
 .project-list {
   list-style: none;
+  margin-bottom: 3rem;
 }
 
 .project-list li {
+  margin-left: 1rem;
+
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.4);
   transition: all 0.6s ease;
   cursor: pointer;
   animation-name: opacity-animation;
-  animation-duration: 1.5s;
+  animation-duration: 3s;
+  line-height: 1.2rem;
 }
 
 @keyframes opacity-animation {
   from {
-    opacity: 0;
+    height: 0px;
   }
   to {
-    opacity: 1;
+    height: 200px;
   }
 }
 

@@ -3,11 +3,15 @@
   overflow-x: scroll;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
 }
 
 .photo-line__container::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
+}
+
+.photo-card__cover {
+  width: 100%;
+  cursor: default;
 }
