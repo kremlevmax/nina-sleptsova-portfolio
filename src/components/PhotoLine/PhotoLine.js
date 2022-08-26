@@ -20,7 +20,7 @@ const PhotoLine = ({ projectNumber, docs, language, setSelectedImage }) => {
         />
       ))
     ) : (
-      <div className='photo-card__container'>
+      <div className='photo-card__cover-container'>
         <img className='photo-card__cover' src={cover} alt='Cover' />
       </div>
     );

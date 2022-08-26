@@ -1,6 +1,5 @@
 .second-menu {
-  height: 100vh;
   display: grid;
   align-content: end;
-  max-height: 800px;
+  max-height: 876px;
 }

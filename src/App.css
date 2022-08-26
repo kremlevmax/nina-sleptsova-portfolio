@@ -1,11 +1,14 @@
 .App {
-  min-height: 100vh;
   display: grid;
   align-items: center;
+  margin-inline: 20px;
 }
 
 main {
+  padding: 10px;
   display: grid;
+  height: 100vh;
+
   grid-template-columns: 1fr 2fr 1fr;
   max-width: 1200px;
   margin: 0 auto;

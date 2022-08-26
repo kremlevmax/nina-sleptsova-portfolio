@@ -1,6 +1,5 @@
 nav {
   max-height: 100vh;
-  padding-top: 30vh;
 }
 
 .logo__container {
@@ -16,6 +15,10 @@ nav {
 
 .menu {
   list-style: none;
+}
+
+.menu__item-link {
+  line-height: 1.5rem;
 }
 
 .social-links {

@@ -10,7 +10,7 @@ const Menu = ({ projectNumber, language, docs }) => {
   return (
     <nav>
       <div className='logo__container'>
-        <Link to='/' className='logo'>
+        <Link to='/nina-sleptsova-portfolio/' className='logo'>
           {logo}
         </Link>
       </div>

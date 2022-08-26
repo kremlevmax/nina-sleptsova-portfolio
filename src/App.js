@@ -3,7 +3,6 @@ import { useState } from "react";
 import Menu from "./components/Menu/Menu";
 import useFirestore from "./hooks/useFirestore";
 import PhotoLine from "./components/PhotoLine/PhotoLine";
-import ProjectList from "./components/ProjectsList/ProjectList";
 import Modal from "./components/Modal/Modal";
 import SecondMenu from "./components/SecondMenu/SecondMenu";
 
