@@ -17,6 +17,7 @@
 
 .photo-card__image {
   width: 584px;
+  padding: 10px;
 }
 
 .photo-card__desc {

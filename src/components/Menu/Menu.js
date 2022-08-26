@@ -5,7 +5,7 @@ import MainMenu from "./MainMenu";
 import "./Menu.css";
 import SocialLinks from "./SocialLinks";
 
-const Menu = ({ projectNumber, language, docs }) => {
+const Menu = ({ projectNumber, language, docs, setProjectNumber }) => {
   const logo = language === "eng" ? "Nina Sleptsova" : "Нина Слепцова";
   return (
     <nav>
@@ -19,6 +19,7 @@ const Menu = ({ projectNumber, language, docs }) => {
         projectNumber={projectNumber}
         docs={docs}
         language={language}
+        setProjectNumber={setProjectNumber}
       />
       <SocialLinks />
     </nav>

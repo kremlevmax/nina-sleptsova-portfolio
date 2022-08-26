@@ -2,4 +2,5 @@
   display: grid;
   align-content: end;
   max-height: 876px;
+  padding-bottom: 10px;
 }

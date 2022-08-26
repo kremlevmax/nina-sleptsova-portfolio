@@ -20,6 +20,7 @@ function App() {
           docs={docs}
           language={language}
           setLanguage={setLanguage}
+          setProjectNumber={setProjectNumber}
         />
         <PhotoLine
           projectNumber={projectNumber}

@@ -5,12 +5,12 @@ const SocialLinks = () => {
     <div className='social-links'>
       <a href='#' className='social-link'>
         Facebook
-      </a>
-      /
+      </a>{" "}
+      /{" "}
       <a href='https://www.instagram.com/n.in.stagram/' className='social-link'>
         Instagram
-      </a>
-      /
+      </a>{" "}
+      /{" "}
       <a href='#' className='social-link'>
         Email
       </a>
