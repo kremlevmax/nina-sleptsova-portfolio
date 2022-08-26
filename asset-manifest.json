@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nina-sleptsova-portfolio/static/css/main.9710a763.css",
-    "main.js": "/nina-sleptsova-portfolio/static/js/main.7a512030.js",
+    "main.css": "/nina-sleptsova-portfolio/static/css/main.a78a09f9.css",
+    "main.js": "/nina-sleptsova-portfolio/static/js/main.9059a573.js",
     "static/js/787.87f98c7e.chunk.js": "/nina-sleptsova-portfolio/static/js/787.87f98c7e.chunk.js",
     "static/media/cover.jpg": "/nina-sleptsova-portfolio/static/media/cover.f6816e753ba123f84d24.jpg",
     "index.html": "/nina-sleptsova-portfolio/index.html",
-    "main.9710a763.css.map": "/nina-sleptsova-portfolio/static/css/main.9710a763.css.map",
-    "main.7a512030.js.map": "/nina-sleptsova-portfolio/static/js/main.7a512030.js.map",
+    "main.a78a09f9.css.map": "/nina-sleptsova-portfolio/static/css/main.a78a09f9.css.map",
+    "main.9059a573.js.map": "/nina-sleptsova-portfolio/static/js/main.9059a573.js.map",
     "787.87f98c7e.chunk.js.map": "/nina-sleptsova-portfolio/static/js/787.87f98c7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9710a763.css",
-    "static/js/main.7a512030.js"
+    "static/css/main.a78a09f9.css",
+    "static/js/main.9059a573.js"
   ]
 }
