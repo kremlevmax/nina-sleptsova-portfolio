@@ -2,6 +2,18 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
+@media screen and (max-width: 800px) {
+  .select-language {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .select-language {
+    font-size: 1.2rem;
+  }
+}
+
 .select-language span {
   text-transform: uppercase;
   cursor: pointer;
