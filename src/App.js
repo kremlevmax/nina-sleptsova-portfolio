@@ -28,7 +28,12 @@ function App() {
           language={language}
           setSelectedImage={setSelectedImage}
         />
-        <SecondMenu setLanguage={setLanguage} />
+        <SecondMenu
+          docs={docs}
+          projectNumber={projectNumber}
+          language={language}
+          setLanguage={setLanguage}
+        />
 
         {selectedImage && (
           <Modal

@@ -1,0 +1,13 @@
+.project-desc__container {
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.project-title {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.project-desc {
+  text-align: justify;
+}
