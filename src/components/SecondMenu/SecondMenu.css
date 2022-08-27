@@ -3,3 +3,9 @@
   align-content: end;
   max-height: 876px;
 }
+
+@media screen and (max-width: 1250px) {
+  .second-menu {
+    grid-column: 1;
+  }
+}

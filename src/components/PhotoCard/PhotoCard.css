@@ -15,7 +15,7 @@
 }
 
 .photo-card__image {
-  width: 584px;
+  width: 100%;
 }
 
 .photo-card__desc {

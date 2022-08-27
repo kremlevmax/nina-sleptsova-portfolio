@@ -1,3 +1,9 @@
+@media screen and (max-width: 1250px) {
+  nav {
+    grid-column: 1;
+  }
+}
+
 .logo__container {
   margin-bottom: 1rem;
 }
