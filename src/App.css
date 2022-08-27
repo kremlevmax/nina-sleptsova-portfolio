@@ -1,21 +1,16 @@
 .App {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-inline: 20px;
+  justify-content: center;
   height: 100vh;
 }
 
 main {
+  flex: 0 1 900px;
   display: grid;
-  max-height: 900px;
   grid-template-columns: 1fr 2fr 1fr;
-  max-width: 1200px;
-  margin: 0 auto;
   gap: 1rem;
   overflow: hidden;
-}
-
-.photo-line {
-  min-height: 100vh;
-  background: lightblue;
+  padding: 20px;
 }

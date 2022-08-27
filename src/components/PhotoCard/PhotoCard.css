@@ -3,7 +3,6 @@
   animation-name: opacity-animation;
   animation-duration: 1.5s;
   position: relative;
-  margin-bottom: 1rem;
 }
 
 @keyframes opacity-animation {
@@ -17,7 +16,6 @@
 
 .photo-card__image {
   width: 584px;
-  padding: 10px;
 }
 
 .photo-card__desc {

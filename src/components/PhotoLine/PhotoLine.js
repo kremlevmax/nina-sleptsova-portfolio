@@ -9,23 +9,25 @@ const PhotoLine = ({ projectNumber, docs, language, setSelectedImage }) => {
   const album = docs[projectNumber];
   const arrayOfImages = album === undefined ? [] : Object.values(album?.photos);
 
-  const images =
+  const images = arrayOfImages.map((image) => (
+    <PhotoCard
+      image={image}
+      key={image.id}
+      language={language}
+      setSelectedImage={setSelectedImage}
+    />
+  ));
+
+  const result =
     pathname === "/projects" ? (
-      arrayOfImages.map((image) => (
-        <PhotoCard
-          image={image}
-          key={image.id}
-          language={language}
-          setSelectedImage={setSelectedImage}
-        />
-      ))
+      <div className='photo-line__container'>{images}</div>
     ) : (
       <div className='photo-card__cover-container'>
         <img className='photo-card__cover' src={cover} alt='Cover' />
       </div>
     );
 
-  return <div className='photo-line__container'>{images}</div>;
+  return result;
 };
 
 export default PhotoLine;
