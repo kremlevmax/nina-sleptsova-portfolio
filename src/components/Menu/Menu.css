@@ -1,6 +1,19 @@
+nav {
+  animation: opacity-animation 2s;
+}
+
 @media screen and (max-width: 1250px) {
   nav {
     grid-column: 1;
+  }
+}
+
+@keyframes opacity-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 

@@ -15,6 +15,16 @@
 
 .photo-card__cover-container {
   overflow: hidden;
+  animation: opacity-animation 2s;
+}
+
+@keyframes opacity-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 1250px) {
