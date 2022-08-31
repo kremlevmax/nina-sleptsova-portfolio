@@ -5,6 +5,7 @@ import useFirestore from "./hooks/useFirestore";
 import PhotoLine from "./components/PhotoLine/PhotoLine";
 import Modal from "./components/Modal/Modal";
 import SecondMenu from "./components/SecondMenu/SecondMenu";
+import { motion } from "framer-motion";
 
 function App() {
   const [language, setLanguage] = useState("eng");
