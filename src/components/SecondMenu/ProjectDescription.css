@@ -1,6 +1,16 @@
 .project-desc__container {
   margin-bottom: 2rem;
   color: rgba(0, 0, 0, 0.4);
+  animation: opacity-animation 2s;
+}
+
+@keyframes opacity-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .project-title {

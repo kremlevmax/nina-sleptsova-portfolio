@@ -8,7 +8,7 @@ import SocialLinks from "./SocialLinks";
 const Menu = ({ projectNumber, language, docs, setProjectNumber }) => {
   const logo = language === "eng" ? "Nina Sleptsova" : "Нина Слепцова";
   return (
-    <nav key={Math.random()}>
+    <nav>
       <div className='logo__container'>
         <Link to='/nina-sleptsova-portfolio/' className='logo'>
           {logo}

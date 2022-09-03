@@ -50,7 +50,30 @@ nav {
 
 .social-links {
   color: rgba(0, 0, 0, 0.4);
-  margin-bottom: 1rem;
+  align-self: center;
+  display: inline-flex;
+  gap: 0.8rem;
+  padding: 2px;
+  align-items: center;
+}
+
+.social-link {
+  display: inline-flex;
+  gap: 0.8rem;
+  padding: 2px;
+  align-items: center;
+}
+
+#facebook {
+  font-size: 1.11rem;
+}
+
+#insta {
+  font-size: 1.18rem;
+}
+
+#envelope {
+  font-size: 1.33rem;
 }
 
 @media screen and (max-width: 800px) {
