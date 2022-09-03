@@ -5,6 +5,7 @@ nav {
 @media screen and (max-width: 1250px) {
   nav {
     grid-column: 1;
+    grid-row: 1;
   }
 }
 

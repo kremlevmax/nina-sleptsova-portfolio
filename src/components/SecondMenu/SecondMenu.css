@@ -9,3 +9,21 @@
     grid-column: 1;
   }
 }
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .second-menu {
+    grid-column: 1;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .second-menu {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}

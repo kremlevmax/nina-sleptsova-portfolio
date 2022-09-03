@@ -7,6 +7,27 @@
     font-size: 0.6rem;
   }
 }
+@media screen and (max-width: 1155px) and (orientation: landscape) {
+  .select-language {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 1040px) and (orientation: landscape) {
+  .select-language {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 935px) and (orientation: landscape) {
+  .select-language {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 670px) and (orientation: landscape) {
+  .select-language {
+    font-size: 0.55rem;
+  }
+}
 
 @media screen and (max-width: 500px) {
   .select-language {
