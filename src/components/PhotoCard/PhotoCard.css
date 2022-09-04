@@ -1,11 +1,11 @@
 .photo-card__container {
   cursor: pointer;
+  position: relative;
 }
 
 .photo-card__image {
   width: 100%;
   animation: opacity-animation 2s;
-  position: relative;
 }
 
 @keyframes opacity-animation {
