@@ -28,4 +28,4 @@ npm start
 
 ### Live
 
-[GitHub Pages](https://kremlevmax.github.io/blog-app-redux-toolkit/)
+[GitHub Pages](https://kremlevmax.github.io/nina-sleptsova-portfolio/)
